@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D199C2C625C42972006ABCA4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199C2C525C42972006ABCA4 /* MapView.swift */; };
+		D199C2CB25C42B3D006ABCA4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199C2CA25C42B3D006ABCA4 /* LocationManager.swift */; };
+		D199C2D025C4527B006ABCA4 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199C2CF25C4527B006ABCA4 /* LandMark.swift */; };
+		D199C2D425C45317006ABCA4 /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199C2D325C45317006ABCA4 /* LandmarkAnnotation.swift */; };
+		D199C2D725C45760006ABCA4 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199C2D625C45760006ABCA4 /* PlaceListView.swift */; };
 		D1F5925425C4275A00706A8A /* NearMeAppSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F5925325C4275A00706A8A /* NearMeAppSwiftApp.swift */; };
 		D1F5925625C4275A00706A8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F5925525C4275A00706A8A /* ContentView.swift */; };
 		D1F5925825C4275B00706A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F5925725C4275B00706A8A /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D199C2C525C42972006ABCA4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D199C2CA25C42B3D006ABCA4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D199C2CF25C4527B006ABCA4 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		D199C2D325C45317006ABCA4 /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
+		D199C2D625C45760006ABCA4 /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
 		D1F5925025C4275A00706A8A /* NearMeAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearMeAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F5925325C4275A00706A8A /* NearMeAppSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeAppSwiftApp.swift; sourceTree = "<group>"; };
 		D1F5925525C4275A00706A8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D199C2C425C42964006ABCA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D199C2C525C42972006ABCA4 /* MapView.swift */,
+				D199C2D625C45760006ABCA4 /* PlaceListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D199C2C925C42B2A006ABCA4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D199C2CA25C42B3D006ABCA4 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D199C2CE25C4526B006ABCA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D199C2CF25C4527B006ABCA4 /* LandMark.swift */,
+				D199C2D325C45317006ABCA4 /* LandmarkAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D1F5924725C4275A00706A8A = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +88,9 @@
 		D1F5925225C4275A00706A8A /* NearMeAppSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D199C2CE25C4526B006ABCA4 /* Models */,
+				D199C2C925C42B2A006ABCA4 /* Managers */,
+				D199C2C425C42964006ABCA4 /* Views */,
 				D1F5925325C4275A00706A8A /* NearMeAppSwiftApp.swift */,
 				D1F5925525C4275A00706A8A /* ContentView.swift */,
 				D1F5925725C4275B00706A8A /* Assets.xcassets */,
@@ -138,7 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D199C2CB25C42B3D006ABCA4 /* LocationManager.swift in Sources */,
+				D199C2D025C4527B006ABCA4 /* LandMark.swift in Sources */,
+				D199C2D425C45317006ABCA4 /* LandmarkAnnotation.swift in Sources */,
 				D1F5925625C4275A00706A8A /* ContentView.swift in Sources */,
+				D199C2D725C45760006ABCA4 /* PlaceListView.swift in Sources */,
+				D199C2C625C42972006ABCA4 /* MapView.swift in Sources */,
 				D1F5925425C4275A00706A8A /* NearMeAppSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
